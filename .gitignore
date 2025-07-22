@@ -40,4 +40,14 @@ model_performance_plots.png
 model_summary.txt
 top10_features.csv
 cv_results.csv
-logistic_regression.pkl 
+logistic_regression.pkl
+
+# Данные (не добавлять в репозиторий)
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.h5
+*.hdf5 
