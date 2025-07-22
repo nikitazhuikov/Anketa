@@ -1,0 +1,43 @@
+# Папки виртуального окружения
+venv/
+.venv/
+env/
+.env/
+
+# Кэш Python и скомпилированные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Контрольные точки Jupyter Notebook
+.ipynb_checkpoints
+
+# Файлы настроек IDE
+.vscode/
+.idea/
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Логи и базы данных
+*.log
+*.sqlite
+*.db
+
+# Сгенерированные артефакты и модели
+*.pkl
+*.joblib
+*.sav
+
+# Папки ML-экспериментов
+mlruns/
+catboost_info/
+
+# Сгенерированные файлы из вашего проекта
+model_performance_plots.png
+model_summary.txt
+top10_features.csv
+cv_results.csv
+logistic_regression.pkl 
